@@ -1,5 +1,3 @@
 package jgoal.solution;
 
-public interface ICRealSolution extends ICRealCoding, ICSolution {
-
-}
+public interface ICRealSolution extends ICRealCoding, ICSolution {}

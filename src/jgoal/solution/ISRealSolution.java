@@ -1,4 +1,3 @@
 package jgoal.solution;
 
-public interface ISRealSolution extends ICRealSolution, ISSolution {
-}
+public interface ISRealSolution extends ICRealSolution, ISSolution {}
