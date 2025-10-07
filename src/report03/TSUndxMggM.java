@@ -18,7 +18,7 @@ import jssf.random.TCJava48BitLcg;
  * The experimental settings is as follows.
  * - Benchmark function: k-tablet (k=n/4).
  * - Dimension: n=20.
- * - Initial region: [-5,+5]^nC
+ * - Initial region: [-5,+5]^nï¼Œ
  * - Population size: 14n
  * - The number of offspring: 5n
  * - The maximum number of evaluation: 4n x 1e4
@@ -40,7 +40,7 @@ public class TSUndxMggM {
 	 */
 	private static void initializePopulation(TCSolutionSet<TSRealSolution> population, double min, double max, ICRandom random) {
 		for (TSRealSolution s: population) {
-			s.getVector().rand(random).times(max - min).add(min); //ŒÂ‘Ì‚ÌÀ•W‚ğ”ÍˆÍ[min, max]^n‚Ì—”‚Å‰Šú‰»D
+			s.getVector().rand(random).times(max - min).add(min); //å€‹ä½“ã®åº§æ¨™ã‚’ç¯„å›²[min, max]^nã®ä¹±æ•°ã§åˆæœŸåŒ–ï¼
 		}
 	}
 

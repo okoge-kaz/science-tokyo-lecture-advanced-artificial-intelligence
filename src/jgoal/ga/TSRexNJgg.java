@@ -124,7 +124,7 @@ public class TSRexNJgg implements Serializable {
 	 * Executes survival selection
 	 */
 	public void nextGeneration() {
-		fSurvivalSelection.doIt(fPopulation, fParents, fKids); //¶‘¶‘I‘ğ‚ğs‚¤D
+		fSurvivalSelection.doIt(fPopulation, fParents, fKids); //ç”Ÿå­˜é¸æŠã‚’è¡Œã†ï¼
 	}
 	
 	/**
