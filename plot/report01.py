@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 files = {
-    "P7": "output/RexJggKTabletP7K5.csv",
-    "P14": "output/RexJggKTabletP14K5.csv",
-    "P28": "output/RexJggKTabletP28K5.csv",
+    "P7": "output/report01/RexJggKTabletP7K5.csv",
+    "P14": "output/report01/RexJggKTabletP14K5.csv",
+    "P28": "output/report01/RexJggKTabletP28K5.csv",
 }
 
 plt.figure(figsize=(12, 8))
