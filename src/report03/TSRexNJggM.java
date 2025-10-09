@@ -160,7 +160,7 @@ public class TSRexNJggM {
     long maxEvals = (long) (4 * dimension * 1e4); // The maximum number of evaluation
     int maxTrials = 3; // The number of trials
     String trialName = "RexJggKTabletP14K5"; // The trial name, which is used for the log filename.
-    String logFilename = trialName + ".csv"; // The log filename.
+    String logFilename = "output/report03/" + trialName + ".csv"; // The log filename.
 
     ICRandom random = new TCJava48BitLcg(); // Random generator.
     TSRexNJgg ga =
