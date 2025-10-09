@@ -161,7 +161,7 @@ public class TSArexJggM {
     int maxTrials = 3; // The number of trials
     String trialName =
         "ArexJggOffsetKTabletP14K5"; // The trial name, which is used for the log filename.
-    String logFilename = trialName + ".csv"; // The log filename.
+    String logFilename = "output/report04/" + trialName + ".csv"; // The log filename.
 
     ICRandom random = new TCJava48BitLcg(); // Random generator.
     TSArexJgg ga =
