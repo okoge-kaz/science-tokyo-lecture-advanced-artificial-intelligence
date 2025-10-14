@@ -36,9 +36,8 @@ public class TSRexNJggM {
       s.getVector()
           .rand(random)
           .times(max - min)
-          .add(
-              min); // Initializes the coordinates of the individual with random numbers with the
-                    // range of [min, max]^n．
+          .add(min); // Initializes the coordinates of the individual with random numbers with the
+      // range of [min, max]^n．
     }
   }
 
@@ -118,8 +117,8 @@ public class TSRexNJggM {
     while (best > 1e-7
         && noOfEvals
             < maxEvals) { // the termination condition : the best evaluation value is smaller than
-                          // 10^-7 or the number of evaluation is larger than the maximum number of
-                          // evaluation.
+      // 10^-7 or the number of evaluation is larger than the maximum number of
+      // evaluation.
       TCSolutionSet<TSRealSolution> offspring = ga.makeOffspring(); // Generates offspring.
       evaluate(offspring); // Evaluates the offspring.
       noOfEvals += offspring.size(); // Updates the number of evaluation.
@@ -142,7 +141,7 @@ public class TSRexNJggM {
             + noOfEvals
             + ", Best:"
             + best); // Displays the trial number, the number of evaluation and the best evaluation
-                     // value.
+    // value.
   }
 
   /**
@@ -175,6 +174,6 @@ public class TSRexNJggM {
     }
     log.writeTo(
         logFilename); // Outputs the log table containing the results of the three trials to the log
-                      // file.
+    // file.
   }
 }

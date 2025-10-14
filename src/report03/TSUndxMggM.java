@@ -113,8 +113,8 @@ public class TSUndxMggM {
     while (best > 1e-7
         && noOfEvals
             < maxEvals) { // the termination condition : the best evaluation value is smaller than
-                          // 10^-7 or the number of evaluation is larger than the maximum number of
-                          // evaluation.
+      // 10^-7 or the number of evaluation is larger than the maximum number of
+      // evaluation.
       TCSolutionSet<TSRealSolution> offspring = ga.makeOffspring(); // Generates offspring.
       evaluate(offspring); // Evaluates the offspring.
       noOfEvals += offspring.size(); // Updates the number of evaluation.
@@ -137,7 +137,7 @@ public class TSUndxMggM {
             + noOfEvals
             + ", Best:"
             + best); // Displays the trial number, the number of evaluation and the best evaluation
-                     // value.
+    // value.
   }
 
   /**
@@ -169,6 +169,6 @@ public class TSUndxMggM {
     }
     log.writeTo(
         logFilename); // Output the log table containing the results of the three trials to the log
-                      // file.
+    // file.
   }
 }
