@@ -49,6 +49,8 @@ case "$1" in
     compile_all
     if [[ "$2" == "arex" ]]; then
       run_report "$1" "TSArexJggM"
+    elif [[ "$2" == "rastrigin" ]]; then
+      run_report "$1" "TSArexJggMRastrigin"
     else
       run_report "$1"
     fi
